@@ -1,3 +1,3 @@
-# My Game is Cool!
+# Learning JavaScript
 
-Make sure you give it a good description here...
+There will be awesomeness here soon
