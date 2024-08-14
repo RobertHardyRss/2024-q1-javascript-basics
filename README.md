@@ -1,3 +1,3 @@
 # Learning JavaScript
 
-There will be awesomeness here soon
+There will be awesomeness here soon!
