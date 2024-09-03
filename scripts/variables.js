@@ -32,6 +32,11 @@ let myPet = {
 	name: "Louie",
 	ageInHumanYears: 9,
 	color: "black",
+	favoriteFoods: ["bacon", "steak", "pizza", "peanut butter"],
+	owner: {
+		firstName: "Robert",
+		lastName: "Hardy",
+	},
 };
 
 myPet.color = "brown";
@@ -52,3 +57,5 @@ let favCandies = [
 console.log("my fav candies are:", favCandies);
 // arrays start counting from zero
 console.log("my fav candies at index 2 is:", favCandies[2]);
+
+favCandies.length;
