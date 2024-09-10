@@ -2,6 +2,13 @@
 
 let playerControls = document.getElementById("player-controls");
 
+//game-results
+/** @type { HTMLElement } */
+//@ts-ignore We know game result header is not null
+let gameResultHeader = document.getElementById("game-results");
+
+gameResultHeader.innerText = "Hey there!!";
+
 let isGameOver = false;
 
 let weapons = [
@@ -54,7 +61,8 @@ function playerControlHandler(e) {
 	let computerWeapon = pickRandomWeapon(weapons);
 
 	let result = determineOutcome(playerWeapon, computerWeapon);
-
+	
+	gameResultHeader.innerText = result;
 	console.log(result);
 }
 
